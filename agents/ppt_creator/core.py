@@ -18,7 +18,7 @@ class PPTCreator:
         pass
     
     async def create_images(self, descriptions: List[str]) -> List[str]:
-        """Generate images for slides using DALL¡¤E"""
+        """Generate images for slides using DALLÂ·E"""
         # TODO: Implement image generation
         pass
     

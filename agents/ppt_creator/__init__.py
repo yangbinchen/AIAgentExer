@@ -1,8 +1,8 @@
-"""PPT Creator Agent using OpenAI Assistants API and DALL¡¤E 3.
+"""PPT Creator Agent using OpenAI Assistants API and DALLÂ·E 3.
 
 This module implements an AI agent that can automatically create PowerPoint
 presentations using OpenAI's Assistants API for content generation and
-DALL¡¤E 3 for image creation.
+DALLÂ·E 3 for image creation.
 """
 
 from typing import List, Dict, Any
@@ -14,7 +14,7 @@ class PPTCreatorAgent:
         """Initialize the PPT Creator agent.
 
         Args:
-            openai_api_key: OpenAI API key for accessing GPT and DALL¡¤E services
+            openai_api_key: OpenAI API key for accessing GPT and DALLÂ·E services
         """
         self.api_key = openai_api_key
 

@@ -4,8 +4,8 @@ class PPTCreatorConfig:
     """Configuration for PPT Creator Agent"""
     
     def __init__(self):
-        self.openai_model = "gpt-4-1106-preview"  # 使用最新GPT-4模型
-        self.dalle_model = "dall-e-3"  # 使用DALL·E 3模型
+        self.openai_model = "gpt-4-1106-preview"  # 浣跨敤鏈�鏂癎PT-4妯″瀷
+        self.dalle_model = "dall-e-3"  # 浣跨敤DALL路E 3妯″瀷
         self.max_tokens = 4096
         self.temperature = 0.7
         

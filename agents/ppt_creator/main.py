@@ -7,7 +7,7 @@ generate PowerPoint presentations automatically.
 import asyncio
 import os
 from dotenv import load_dotenv
-from ppt_creator import PPTCreatorAgent
+import PPTCreatorAgent
 
 async def main():
     # Load environment variables from .env file
