@@ -1,0 +1,33 @@
+{
+  "examples": [
+    {
+      "function_name": "calculate_price",
+      "input": {
+        "base_price": 100,
+        "quantity": 5,
+        "discount": 0.1
+      },
+      "expected_output": 450,
+      "description": "计算商品总价（含折扣）"
+    },
+    {
+      "function_name": "validate_user",
+      "input": {
+        "username": "test_user",
+        "password": "password123",
+        "role": "user"
+      },
+      "expected_output": true,
+      "description": "验证用户登录信息"
+    },
+    {
+      "function_name": "format_date",
+      "input": {
+        "date": "2023-12-25",
+        "format": "YYYY年MM月DD日"
+      },
+      "expected_output": "2023年12月25日",
+      "description": "日期格式转换"
+    }
+  ]
+}

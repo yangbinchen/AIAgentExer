@@ -1,0 +1,41 @@
+{
+  "title_slide": {
+    "layout": "title",
+    "title": "示例演示文稿",
+    "subtitle": "使用AI生成的PPT"
+  },
+  "content_slides": [
+    {
+      "layout": "content",
+      "title": "主要内容",
+      "bullet_points": [
+        "要点1",
+        "要点2",
+        "要点3"
+      ]
+    },
+    {
+      "layout": "two_column",
+      "title": "对比分析",
+      "left_column": {
+        "title": "优势",
+        "points": [
+          "优势1",
+          "优势2"
+        ]
+      },
+      "right_column": {
+        "title": "劣势",
+        "points": [
+          "劣势1",
+          "劣势2"
+        ]
+      }
+    }
+  ],
+  "closing_slide": {
+    "layout": "summary",
+    "title": "总结",
+    "content": "感谢观看"
+  }
+}

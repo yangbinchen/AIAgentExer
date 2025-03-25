@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "产品知识",
+      "entries": [
+        {
+          "id": "prod_001",
+          "title": "产品A使用指南",
+          "content": "1. 安装步骤\n2. 基本功能\n3. 常见问题",
+          "tags": ["使用指南", "教程"]
+        },
+        {
+          "id": "prod_002",
+          "title": "产品B规格说明",
+          "content": "- 尺寸规格\n- 技术参数\n- 包装清单",
+          "tags": ["规格", "参数"]
+        }
+      ]
+    },
+    {
+      "name": "故障排除",
+      "entries": [
+        {
+          "id": "trouble_001",
+          "title": "常见错误代码解析",
+          "content": "Error 101: 网络连接失败\nError 102: 配置错误",
+          "tags": ["错误", "故障"]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "last_updated": "2023-12-25",
+    "version": "1.0"
+  }
+}

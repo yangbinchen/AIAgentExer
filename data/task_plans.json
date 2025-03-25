@@ -1,0 +1,54 @@
+{
+  "plans": [
+    {
+      "task_id": "task_001",
+      "name": "数据分析报告生成",
+      "steps": [
+        {
+          "step_id": 1,
+          "name": "数据收集",
+          "description": "从数据源获取原始数据",
+          "estimated_time": "30min"
+        },
+        {
+          "step_id": 2,
+          "name": "数据清洗",
+          "description": "处理缺失值和异常值",
+          "estimated_time": "45min"
+        },
+        {
+          "step_id": 3,
+          "name": "数据分析",
+          "description": "进行统计分析和可视化",
+          "estimated_time": "60min"
+        }
+      ],
+      "dependencies": {
+        "tools": ["pandas", "matplotlib"],
+        "data_sources": ["sales_data.csv"]
+      }
+    },
+    {
+      "task_id": "task_002",
+      "name": "自动化测试执行",
+      "steps": [
+        {
+          "step_id": 1,
+          "name": "环境准备",
+          "description": "配置测试环境",
+          "estimated_time": "15min"
+        },
+        {
+          "step_id": 2,
+          "name": "运行测试",
+          "description": "执行测试用例",
+          "estimated_time": "30min"
+        }
+      ],
+      "dependencies": {
+        "tools": ["pytest", "selenium"],
+        "config_files": ["test_config.yaml"]
+      }
+    }
+  ]
+}
