@@ -125,7 +125,7 @@ def openai_chat_completion(messages):
         "Authorization": f"Bearer {api_key}"
     }
     data = {
-        "model": "gpt-3.5-turbo",
+        "model": "gpt-4o",  # 从 gpt-3.5-turbo 修改为 gpt-4o  "gpt-3.5-turbo",
         "messages": messages,
         "temperature": 0.7
     }
